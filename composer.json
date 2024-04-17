@@ -1,0 +1,15 @@
+{
+  "name": "triton/triton-sdk-php",
+  "description": "Triton SDK for PHP",
+  "require": {
+    "php": ">=5.3.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Triton\\": "src/Triton"
+    }
+  }
+}
